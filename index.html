@@ -152,26 +152,27 @@
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </section><!--//section-->
+                <script>
+                $(function() {
+                  GitHubActivity.feed({
+                    username: "rahulkatiyar19955",
+                    selector: "#feed"
+                  });
+                });
+                </script>
                 <section class="github section">
 
                     <div class="section-inner">
                         <h2 class="heading">My GitHub</h2>
                         <!-- <p>GitHub contribution<a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. -->
 
-                        <div id="github-graph" class="github-graph">
+                        <!-- <div id="github-graph" class="github-graph">
 
-                        </div><!--//github-graph-->
+                        </div> -->
 
                         <!-- <p>GitHub activities<a href="https://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget. -->
                         <!--//Usage: https://caseyscarborough.com/projects/github-activity/ -->
-                        <!-- <script>
-                        $(function() {
-                          GitHubActivity.feed({
-                            username: "rahulkatiyar19955",
-                            selector: "#ghfeed"
-                          });
-                        });
-                        </script> -->
+
                         <div id="feed">
 
                         </div><!--//ghfeed-->
